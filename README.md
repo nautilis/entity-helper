@@ -22,4 +22,6 @@ type User struct {
 ```
 - execute ```go generate ``` under package.
 - must delete the existed fields of the struct if you need to regenerate it.
+
+
 ![demo](./demo.gif)
