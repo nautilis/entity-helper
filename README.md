@@ -1,8 +1,11 @@
 ## entity-helper 
 entity-helper 是一个用于生成数据库表实体的go tool, 通过定义空实体即可自动填充与数据表一致的golang字段。
 ### 使用方式
-- 配置
-在 ~/.entity-helper/conf.toml配置数据库信息
+- 获取并安装
+```shell
+go get github.com/nautilis/entity-helper && go install github.com/nautilis/entity-helper
+```
+- 在 ~/.entity-helper/conf.toml配置数据库信息
 ```toml
 DbAddress = "username:password@tcp(127.0.0.1:3306)/yourdb?charset=utf8mb4"
 Db = "yourdb"
