@@ -1,5 +1,5 @@
 # entity-helper [中文](./README_CN.md) #
-Useful go tool to generate struct fields according to database schema
+Useful go tool to generate struct according to database schema
 
 ### installation
 
